@@ -608,7 +608,7 @@ const gltfLoader = new (0, _gltfloaderJs.GLTFLoader)();
 // Declarar la variable loadingScreen
 const loadingScreen = document.getElementById("loading-screen");
 //Cargar modelo
-gltfLoader.load("assets/scene.gltf", function(gltf) {
+gltfLoader.load("/assets/scene.gltf", function(gltf) {
     model = gltf.scene;
     model.scale.set(0.007, 0.007, 0.007);
     // Recorre los materiales del modelo y habilita el sombreado

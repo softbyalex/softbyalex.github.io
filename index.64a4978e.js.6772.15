@@ -735,7 +735,7 @@ sphere.rotation.y = Math.PI / -1;
 sphereMaterial.side = _three.BackSide; // Invertir las caras de la esfera
 // Paso 4: Añadir la esfera a la escena
 scene.add(sphere);
-gltfLoader.load("assets/scene.gltf", function(gltf) {
+gltfLoader.load("/assets/scene.gltf", function(gltf) {
     const model = gltf.scene;
     model.scale.set(0.007, 0.007, 0.007);
     // Recorre los materiales del modelo y habilita el sombreado
