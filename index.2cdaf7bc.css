@@ -1,0 +1,40 @@
+#loading-screen {
+  opacity: 1;
+  z-index: 9999;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: opacity 1s ease-in-out;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#loading-screen img {
+  max-width: 256px;
+}
+
+#canvasContainer {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#toggleGreenPolygon {
+  z-index: 10;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#resetCameraButton {
+  z-index: 10;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
